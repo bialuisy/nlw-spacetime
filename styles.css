@@ -114,6 +114,11 @@ nav {
   height: 280px;
   object-fit: cover;
   border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rocketseat:hover img {
+  transform: scale(1.1);
 }
 
 .rocketseat div {
@@ -154,6 +159,18 @@ nav {
   height: 280px;
   object-fit: cover;
   border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.week:hover img {
+  transform: scale(1.1);
+}
+
+.week div {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .week p {
@@ -182,6 +199,18 @@ nav {
   width: 100%;
   height: 280px;
   object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.explorer:hover img {
+  transform: scale(1.1);
+}
+
+.explorer div {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
   border-radius: 8px;
 }
 
